@@ -10,7 +10,7 @@ jobs:
       - name: checkout code
         uses:actions/ceckout@v2
         
-      - name: Run Super-Lint
+      - name: Run Super-Linter
         uses: github/super-lint@v3
         env:
           DEFAULT_BRANCH: main
