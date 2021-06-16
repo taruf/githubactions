@@ -1,4 +1,4 @@
-name: SuperLinter
+name: Super-Linter
 
 on: push
 
@@ -8,9 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout code
-        uses:actions/ceckout@v2
+        uses: actions/ceckout@v2
         
-      - name: Run SuperLinter
+      - name: Run Super-Linter
         uses: github/super-lint@v3
         env:
           DEFAULT_BRANCH: main
